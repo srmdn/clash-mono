@@ -1,4 +1,4 @@
-.PHONY: build check clean
+.PHONY: build check clean specimen
 
 PYTHON ?= python3
 
@@ -7,6 +7,9 @@ build:
 
 check:
 	@$(PYTHON) scripts/check.py
+
+specimen:
+	@$(PYTHON) scripts/specimen.py
 
 clean:
 	@rm -rf build dist
