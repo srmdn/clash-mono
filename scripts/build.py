@@ -51,6 +51,7 @@ def main() -> int:
             "ttf",
             "--output-dir",
             str(ttf_dir),
+            "--keep-overlaps",
         ]
     )
     run(
@@ -62,6 +63,7 @@ def main() -> int:
             "otf",
             "--output-dir",
             str(otf_dir),
+            "--keep-overlaps",
         ]
     )
 
