@@ -6,16 +6,24 @@
     <contour>
       <point x="250" y="0" type="move"/>
       <point x="310" y="0" type="line"/>
-      <point x="310" y="220" type="line"/>
-      <point x="350" y="260" type="line"/>
-      <point x="350" y="440" type="line"/>
-      <point x="310" y="480" type="line"/>
+      <point x="310" y="200" type="line"/>
+      <point x="350" y="235" type="line"/>
+      <point x="350" y="285" type="line"/>
+      <point x="328" y="315" type="line"/>
+      <point x="328" y="385" type="line"/>
+      <point x="350" y="415" type="line"/>
+      <point x="350" y="465" type="line"/>
+      <point x="310" y="500" type="line"/>
       <point x="310" y="700" type="line"/>
       <point x="250" y="700" type="line"/>
-      <point x="250" y="480" type="line"/>
-      <point x="210" y="440" type="line"/>
-      <point x="210" y="260" type="line"/>
-      <point x="250" y="220" type="line"/>
+      <point x="250" y="500" type="line"/>
+      <point x="210" y="465" type="line"/>
+      <point x="210" y="415" type="line"/>
+      <point x="232" y="385" type="line"/>
+      <point x="232" y="315" type="line"/>
+      <point x="210" y="285" type="line"/>
+      <point x="210" y="235" type="line"/>
+      <point x="250" y="200" type="line"/>
     </contour>
   </outline>
 </glyph>
