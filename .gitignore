@@ -1,0 +1,49 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+pip-wheel-metadata/
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Build output
+build/
+dist/
+out/
+release/
+
+# Font artifacts
+*.ttf
+*.otf
+*.ttc
+*.woff
+*.woff2
+*.eot
+
+# Tool caches
+.fontbakery/
+fontbakery-report/
+.cache/
+*.log
+*.bak
