@@ -4,28 +4,28 @@
   <unicode hex="0023"/>
   <outline>
     <contour>
-      <point x="220" y="0" type="move"/>
-      <point x="280" y="0" type="line"/>
-      <point x="300" y="700" type="line"/>
-      <point x="240" y="700" type="line"/>
+      <point x="222" y="0" type="move"/>
+      <point x="278" y="0" type="line"/>
+      <point x="298" y="700" type="line"/>
+      <point x="242" y="700" type="line"/>
     </contour>
     <contour>
-      <point x="340" y="0" type="move"/>
-      <point x="400" y="0" type="line"/>
-      <point x="380" y="700" type="line"/>
-      <point x="320" y="700" type="line"/>
+      <point x="342" y="0" type="move"/>
+      <point x="398" y="0" type="line"/>
+      <point x="378" y="700" type="line"/>
+      <point x="322" y="700" type="line"/>
     </contour>
     <contour>
-      <point x="170" y="240" type="move"/>
-      <point x="430" y="240" type="line"/>
-      <point x="430" y="300" type="line"/>
-      <point x="170" y="300" type="line"/>
+      <point x="168" y="240" type="move"/>
+      <point x="428" y="240" type="line"/>
+      <point x="428" y="295" type="line"/>
+      <point x="168" y="295" type="line"/>
     </contour>
     <contour>
-      <point x="160" y="400" type="move"/>
-      <point x="420" y="400" type="line"/>
-      <point x="420" y="460" type="line"/>
-      <point x="160" y="460" type="line"/>
+      <point x="162" y="405" type="move"/>
+      <point x="422" y="405" type="line"/>
+      <point x="422" y="460" type="line"/>
+      <point x="162" y="460" type="line"/>
     </contour>
   </outline>
 </glyph>
