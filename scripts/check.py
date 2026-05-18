@@ -16,6 +16,7 @@ FONTINFO_PATH = MASTER_DIR / "fontinfo.plist"
 LIB_PATH = MASTER_DIR / "lib.plist"
 GLYPH_ORDER_PATH = SOURCE_DIR / "glyph-order.txt"
 DESIGNSPACE_PATH = SOURCE_DIR / "ClashMono.designspace"
+CELL_WIDTH = 600
 
 
 def fail(errors: list[str]) -> int:
@@ -133,9 +134,29 @@ def check_glyphs(errors: list[str]) -> None:
             errors.append(f"missing glyph file for {glyph_name}: {glyph_path}")
             continue
         try:
-            ET.parse(glyph_path)
+            tree = ET.parse(glyph_path)
         except Exception as exc:  # pragma: no cover - structural check
             errors.append(f"cannot parse glyph {glyph_name}: {exc}")
+            continue
+
+        advance = tree.find("./advance")
+        if advance is None:
+            errors.append(f"glyph missing advance width: {glyph_name}")
+            continue
+
+        width = advance.get("width")
+        if width is None:
+            errors.append(f"glyph missing advance width value: {glyph_name}")
+            continue
+        try:
+            advance_width = int(width)
+        except ValueError:
+            errors.append(f"glyph has invalid advance width {width!r}: {glyph_name}")
+            continue
+        if advance_width != CELL_WIDTH:
+            errors.append(
+                f"glyph width must be {CELL_WIDTH}: {glyph_name} has {advance_width}"
+            )
 
         parts = Path(rel_path).parts
         stem = Path(rel_path).stem
