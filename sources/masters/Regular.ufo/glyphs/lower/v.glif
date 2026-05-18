@@ -6,11 +6,11 @@
     <contour>
       <point x="170" y="500" type="move"/>
       <point x="230" y="500" type="line"/>
-      <point x="300" y="120" type="line"/>
+      <point x="300" y="130" type="line"/>
       <point x="370" y="500" type="line"/>
       <point x="430" y="500" type="line"/>
-      <point x="330" y="0" type="line"/>
-      <point x="270" y="0" type="line"/>
+      <point x="335" y="0" type="line"/>
+      <point x="265" y="0" type="line"/>
     </contour>
   </outline>
 </glyph>

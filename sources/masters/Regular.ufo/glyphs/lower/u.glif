@@ -7,8 +7,8 @@
       <point x="170" y="500" type="move"/>
       <point x="230" y="500" type="line"/>
       <point x="230" y="120" type="line"/>
-      <point x="370" y="120" type="line"/>
-      <point x="370" y="500" type="line"/>
+      <point x="365" y="120" type="line"/>
+      <point x="365" y="500" type="line"/>
       <point x="430" y="500" type="line"/>
       <point x="430" y="0" type="line"/>
       <point x="170" y="0" type="line"/>
