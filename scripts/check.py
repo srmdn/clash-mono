@@ -77,7 +77,21 @@ def check_fontinfo(errors: list[str]) -> None:
         errors.append(f"cannot parse fontinfo: {exc}")
         return
 
-    for key in ("familyName", "styleName", "unitsPerEm", "ascender", "descender"):
+    for key in (
+        "familyName",
+        "styleName",
+        "unitsPerEm",
+        "ascender",
+        "descender",
+        "openTypeHheaAscender",
+        "openTypeHheaDescender",
+        "openTypeHheaLineGap",
+        "openTypeOS2TypoAscender",
+        "openTypeOS2TypoDescender",
+        "openTypeOS2TypoLineGap",
+        "openTypeOS2WinAscent",
+        "openTypeOS2WinDescent",
+    ):
         if key not in fontinfo:
             errors.append(f"fontinfo missing key: {key}")
 
@@ -87,6 +101,18 @@ def check_fontinfo(errors: list[str]) -> None:
         errors.append("fontinfo styleName must be Regular")
     if fontinfo.get("unitsPerEm") != 1000:
         errors.append("fontinfo unitsPerEm must be 1000")
+    for key, expected in (
+        ("openTypeHheaAscender", 800),
+        ("openTypeHheaDescender", -200),
+        ("openTypeHheaLineGap", 0),
+        ("openTypeOS2TypoAscender", 800),
+        ("openTypeOS2TypoDescender", -200),
+        ("openTypeOS2TypoLineGap", 0),
+        ("openTypeOS2WinAscent", 800),
+        ("openTypeOS2WinDescent", 200),
+    ):
+        if fontinfo.get(key) != expected:
+            errors.append(f"fontinfo {key} must be {expected}")
 
 
 def check_glyph_order(errors: list[str]) -> None:

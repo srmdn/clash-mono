@@ -32,4 +32,5 @@ Build:
 - `make check` validates UFO structure and glyph map
 - `make build` runs `fontmake` when installed and copies binaries to `dist/`
 - `make specimen` writes `dist/specimen.html` after a successful build
+- `make smoke` checks built font and specimen files in `dist/`
 - install deps with `pip install -r requirements.txt` in your own env
