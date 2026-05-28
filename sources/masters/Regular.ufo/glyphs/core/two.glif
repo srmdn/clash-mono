@@ -1,21 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="two" format="2">
-  <advance width="600"/>
-  <unicode hex="0032"/>
+  <advance width="600" />
+  <unicode hex="0032" />
   <outline>
     <contour>
-      <point x="180" y="120" type="move"/>
-      <point x="240" y="60" type="line"/>
-      <point x="360" y="60" type="line"/>
-      <point x="420" y="120" type="line"/>
-      <point x="420" y="180" type="line"/>
-      <point x="250" y="460" type="line"/>
-      <point x="420" y="460" type="line"/>
-      <point x="420" y="540" type="line"/>
-      <point x="180" y="540" type="line"/>
-      <point x="180" y="480" type="line"/>
-      <point x="350" y="180" type="line"/>
-      <point x="240" y="180" type="line"/>
+      <point x="210" y="700" type="move" />
+      <point x="238" y="700" />
+      <point x="400" y="678" />
+      <point x="400" y="650" type="curve" />
+      <point x="400" y="400" type="line" />
+      <point x="400" y="372" />
+      <point x="238" y="300" />
+      <point x="210" y="300" type="curve" />
+      <point x="400" y="300" type="line" />
+      <point x="372" y="300" />
+      <point x="400" y="28" />
+      <point x="400" y="0" type="curve" />
+      <point x="210" y="0" type="line" />
     </contour>
   </outline>
 </glyph>

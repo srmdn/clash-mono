@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="q" format="2">
-  <advance width="600"/>
-  <unicode hex="0071"/>
+  <advance width="600" />
+  <unicode hex="0071" />
   <outline>
     <contour>
-      <point x="255" y="-180" type="move"/>
-      <point x="310" y="-180" type="line"/>
-      <point x="310" y="500" type="line"/>
-      <point x="255" y="500" type="line"/>
+      <point x="350" y="-180" type="move" />
+      <point x="430" y="-180" type="line" />
+      <point x="430" y="550" type="line" />
+      <point x="350" y="550" type="line" />
     </contour>
     <contour>
-      <point x="180" y="130" type="move"/>
-      <point x="365" y="130" type="line"/>
-      <point x="420" y="185" type="line"/>
-      <point x="420" y="435" type="line"/>
-      <point x="365" y="490" type="line"/>
-      <point x="230" y="490" type="line"/>
-      <point x="180" y="435" type="line"/>
-      <point x="180" y="185" type="line"/>
+      <point x="180" y="50" type="move" />
+      <point x="300" y="50" type="line" />
+      <point x="350" y="100" type="line" />
+      <point x="350" y="450" type="line" />
+      <point x="300" y="500" type="line" />
+      <point x="220" y="500" type="line" />
+      <point x="180" y="450" type="line" />
     </contour>
   </outline>
 </glyph>

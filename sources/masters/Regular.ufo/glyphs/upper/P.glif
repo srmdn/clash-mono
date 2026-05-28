@@ -1,21 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="P" format="2">
-  <advance width="600"/>
-  <unicode hex="0050"/>
+  <advance width="600" />
+  <unicode hex="0050" />
   <outline>
     <contour>
-      <point x="170" y="0" type="move"/>
-      <point x="230" y="0" type="line"/>
-      <point x="230" y="700" type="line"/>
-      <point x="170" y="700" type="line"/>
+      <point x="155" y="0" type="move" />
+      <point x="235" y="0" type="line" />
+      <point x="235" y="700" type="line" />
+      <point x="155" y="700" type="line" />
     </contour>
     <contour>
-      <point x="230" y="0" type="move"/>
-      <point x="370" y="0" type="line"/>
-      <point x="430" y="60" type="line"/>
-      <point x="430" y="300" type="line"/>
-      <point x="370" y="360" type="line"/>
-      <point x="230" y="360" type="line"/>
+      <point x="235" y="360" type="move" />
+      <point x="395" y="360" />
+      <point x="465" y="435" />
+      <point x="465" y="495" type="curve" />
+      <point x="465" y="580" />
+      <point x="395" y="650" />
+      <point x="395" y="700" type="curve" />
+      <point x="235" y="700" type="line" />
     </contour>
   </outline>
 </glyph>

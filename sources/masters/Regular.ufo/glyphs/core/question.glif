@@ -1,29 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="question" format="2">
-  <advance width="600"/>
-  <unicode hex="003F"/>
+  <advance width="600" />
+  <unicode hex="003F" />
   <outline>
     <contour>
-      <point x="225" y="425" type="move"/>
-      <point x="280" y="370" type="line"/>
-      <point x="340" y="370" type="line"/>
-      <point x="395" y="425" type="line"/>
-      <point x="395" y="575" type="line"/>
-      <point x="340" y="630" type="line"/>
-      <point x="280" y="630" type="line"/>
-      <point x="225" y="575" type="line"/>
+      <point x="190" y="660" type="move" />
+      <point x="410" y="660" type="line" />
+      <point x="410" y="740" type="line" />
+      <point x="190" y="740" type="line" />
     </contour>
     <contour>
-      <point x="255" y="165" type="move"/>
-      <point x="345" y="165" type="line"/>
-      <point x="345" y="225" type="line"/>
-      <point x="255" y="225" type="line"/>
+      <point x="190" y="660" type="move" />
+      <point x="190" y="580" type="line" />
+      <point x="260" y="500" type="line" />
+      <point x="340" y="500" type="line" />
+      <point x="410" y="580" type="line" />
+      <point x="410" y="660" type="line" />
     </contour>
     <contour>
-      <point x="260" y="0" type="move"/>
-      <point x="340" y="0" type="line"/>
-      <point x="340" y="80" type="line"/>
-      <point x="260" y="80" type="line"/>
+      <point x="260" y="200" type="move" />
+      <point x="340" y="200" type="line" />
+      <point x="340" y="380" type="line" />
+      <point x="260" y="380" type="line" />
+    </contour>
+    <contour>
+      <point x="260" y="0" type="move" />
+      <point x="340" y="0" type="line" />
+      <point x="340" y="100" type="line" />
+      <point x="260" y="100" type="line" />
     </contour>
   </outline>
 </glyph>
